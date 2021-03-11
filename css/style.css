@@ -1,0 +1,55 @@
+body {
+text-align: center;
+}
+ header {
+     background-color: gray;
+     margin-top: auto;
+     margin-bottom: 10px;
+ }
+ img {
+     border-radius: 0%;
+     margin: 10px;
+     color: black;
+ }
+ li{
+    margin: 35px;
+    display :inline;
+    vertical-align: center;
+}
+li > div > p {
+    height: 300px;
+    overflow:scroll;
+    width: 300px;
+    text-align: right;
+    border: 2em;
+}
+
+section > ul > li {
+    display:inline-block;
+    margin-top: 10px;
+    text-align: right;
+}
+
+
+button {
+    background-color: #ddd;
+    border: none;
+    margin: 5px;
+    color: black;
+    padding: 20px ;
+    font-size: 20px;
+    border-radius: 20px;
+  
+}
+
+button:hover {
+  background-color: rgb(176, 209, 27);
+  color: rgb(122, 28, 28);
+}
+
+
+
+footer {
+    background-color: gray;
+    height: 150px;
+}
